@@ -1,4 +1,5 @@
 import numpy as np
+%reset_selective -f input
 
 j = int(input("Enter a Number (0-9): "))
 step_function = lambda x: 1 if x >= 0 else 0
